@@ -1,0 +1,34 @@
+﻿<Window x:Class="MaraffaClient.BriscolaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaraffaClient"
+        mc:Ignorable="d"
+        Title="Scegli la briscola" Height="194" Width="456.666" ResizeMode="NoResize" Background="#FFD1FF00" WindowStartupLocation="CenterScreen" WindowStyle="None" Closed="Window_Closed">
+
+    <Grid Margin="0,0,10,10">
+        <Label x:Name="label" Content="Scegli il seme briscola:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="129"/>
+        <Button x:Name="btn_Bastoni" Content="" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="100" Height="100" BorderBrush="Black" Click="btn_Bastoni_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Semi/Bastoni.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Coppe" Content="" HorizontalAlignment="Left" Margin="115,41,0,0" VerticalAlignment="Top" Width="100" Height="100" BorderBrush="Black" Click="btn_Coppe_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Semi/Coppe.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Denari" Content="" HorizontalAlignment="Left" Margin="220,41,0,0" VerticalAlignment="Top" Width="100" Height="100" BorderBrush="Black" Click="btn_Denari_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Semi/Denari.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Spade" Content="" HorizontalAlignment="Left" Margin="325,41,0,0" VerticalAlignment="Top" Width="100" Height="100" BorderBrush="Black" Click="btn_Spade_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Semi\Spade.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67F4D038-1A9E-48CF-8D5E-9A252FB1D19A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaraffaClient</RootNamespace>
+    <AssemblyName>MaraffaClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ScoreWindow.xaml.cs">
+      <DependentUpon>ScoreWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BriscolaWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GameWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BriscolaWindow.xaml.cs">
+      <DependentUpon>BriscolaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Card.cs" />
+    <Compile Include="GameWindow.xaml.cs">
+      <DependentUpon>GameWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hand.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ScoreWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ChatBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Semi\Bastoni.png" />
+    <Resource Include="Semi\Coppe.png" />
+    <Resource Include="Semi\Denari.png" />
+    <Resource Include="Semi\Spade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Messaggio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Messaggio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Messaggio3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Carte\CavalloCoppe.png" />
+    <Resource Include="Carte\CavalloSpade.png" />
+    <Resource Include="Carte\CinqueBastoni.png" />
+    <Resource Include="Carte\CinqueDenari.png" />
+    <Resource Include="Carte\DueBastoni.png" />
+    <Resource Include="Carte\FanteSpade.png" />
+    <Resource Include="Carte\QuattroBastoni.png" />
+    <Resource Include="Carte\ReCoppe.png" />
+    <Resource Include="Carte\SeiBastoni.png" />
+    <Resource Include="Carte\SeiDenari.png" />
+    <Resource Include="Carte\SetteBastoni.png" />
+    <Resource Include="Carte\TreBastoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Dorso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Carte\AssoBastoni.png" />
+    <Resource Include="Carte\AssoCoppe.png" />
+    <Resource Include="Carte\AssoDenari.png" />
+    <Resource Include="Carte\AssoSpade.png" />
+    <Resource Include="Carte\CavalloBastoni.png" />
+    <Resource Include="Carte\CavalloDenari.png" />
+    <Resource Include="Carte\CinqueCoppe.png" />
+    <Resource Include="Carte\CinqueSpade.png" />
+    <Resource Include="Carte\DueCoppe.png" />
+    <Resource Include="Carte\DueDenari.png" />
+    <Resource Include="Carte\DueSpade.png" />
+    <Resource Include="Carte\FanteBastoni.png" />
+    <Resource Include="Carte\FanteCoppe.png" />
+    <Resource Include="Carte\FanteDenari.png" />
+    <Resource Include="Carte\QuattroCoppe.png" />
+    <Resource Include="Carte\QuattroDenari.png" />
+    <Resource Include="Carte\QuattroSpade.png" />
+    <Resource Include="Carte\ReBastoni.png" />
+    <Resource Include="Carte\ReDenari.png" />
+    <Resource Include="Carte\ReSpade.png" />
+    <Resource Include="Carte\SeiCoppe.png" />
+    <Resource Include="Carte\SeiSpade.png" />
+    <Resource Include="Carte\SetteCoppe.png" />
+    <Resource Include="Carte\SetteDenari.png" />
+    <Resource Include="Carte\SetteSpade.png" />
+    <Resource Include="Carte\TreCoppe.png" />
+    <Resource Include="Carte\TreDenari.png" />
+    <Resource Include="Carte\TreSpade.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

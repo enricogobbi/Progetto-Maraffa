@@ -1,0 +1,6 @@
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Release\MaraffaServerConsole.exe.config
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Release\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Release\MaraffaServerConsole.pdb
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Release\MaraffaServerConsole.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Release\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Release\MaraffaServerConsole.pdb

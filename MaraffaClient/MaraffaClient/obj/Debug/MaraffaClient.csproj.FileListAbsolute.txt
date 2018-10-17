@@ -1,0 +1,180 @@
+D:\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+D:\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+D:\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+D:\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\enrico.gobbi\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+G:\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+G:\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+G:\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+G:\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+G:\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+G:\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+G:\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+G:\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+G:\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+G:\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+G:\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+G:\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+G:\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\Alice e Giacomo\Desktop\Giacomo\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.Cache
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\enrico.gobbi\Desktop\Maraffa\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb
+C:\Users\giacomo.ravaglia\Desktop\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csprojResolveAssemblyReference.cache
+C:\Users\Alice e Giacomo\Desktop\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe.config
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.exe
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\bin\Debug\MaraffaClient.pdb
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.g.cs
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.g.cs
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.g.cs
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.cache
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient_MarkupCompile.lref
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\App.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\BriscolaWindow.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\GameWindow.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\ScoreWindow.baml
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.g.resources
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.Properties.Resources.resources
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.exe
+C:\Users\utente\Desktop\prova\MaraffaClient\MaraffaClient\obj\Debug\MaraffaClient.pdb

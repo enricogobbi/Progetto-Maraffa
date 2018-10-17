@@ -1,0 +1,27 @@
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csprojResolveAssemblyReference.cache
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csproj.CoreCompileInputs.cache
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe.config
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.pdb
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.exe
+c:\users\utente\documents\visual studio 2017\Projects\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.pdb
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe.config
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.pdb
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.pdb
+C:\Users\utente\Desktop\Progetto Maraffa\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csprojResolveAssemblyReference.cache
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe.config
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.pdb
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.exe
+C:\Users\utente\Desktop\prova\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.pdb
+F:\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe.config
+F:\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.exe
+F:\MaraffaServerConsole\MaraffaServerConsole\bin\Debug\MaraffaServerConsole.pdb
+F:\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csprojResolveAssemblyReference.cache
+F:\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.csproj.CoreCompileInputs.cache
+F:\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.exe
+F:\MaraffaServerConsole\MaraffaServerConsole\obj\Debug\MaraffaServerConsole.pdb

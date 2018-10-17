@@ -1,0 +1,409 @@
+﻿<Window x:Class="MaraffaClient.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaraffaClient"
+        mc:Ignorable="d"
+        Title="Maraffa" Height="708.5" Width="900" ResizeMode="CanMinimize" Background="#FF52E065" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+    <Window.Resources>
+        <Style x:Key="CircleButton" TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Ellipse Fill="{TemplateBinding Background}" Height="Auto" Stretch="Fill" Stroke="#FFCDCDCD" Width="Auto"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="Olive"/>
+        </Style>
+        <Color x:Key="SemaforoVerde">#FF00FF0C</Color>
+    </Window.Resources>
+    <Grid Height="620" Width="740">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_Card8" Content="" HorizontalAlignment="Left" Margin="339,503,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card8_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card9" Content="" HorizontalAlignment="Left" Margin="404,503,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card9_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card7" Content="" HorizontalAlignment="Left" Margin="274,503,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card7_Click" Panel.ZIndex="10" Background="{x:Null}"/>
+        <Button x:Name="btn_Card10" Content="" HorizontalAlignment="Left" Margin="469,503,0,0" VerticalAlignment="Top" Width="60" Height="107" BorderBrush="#FF707070" Click="btn_Card10_Click" Panel.ZIndex="1" RenderTransformOrigin="0.5,0.757" Background="{x:Null}"/>
+        <Button x:Name="btn_Card6" Content="" HorizontalAlignment="Left" Margin="209,503,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card6_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card2" Content="" HorizontalAlignment="Left" Margin="274,391,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card2_Click" Panel.ZIndex="1" Background="{x:Null}"/>
+        <Button x:Name="btn_Card5" Content="" HorizontalAlignment="Left" Margin="469,391,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card5_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card3" Content="" HorizontalAlignment="Left" Margin="339,391,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card3_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card4" Content="" HorizontalAlignment="Left" Margin="404,391,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card4_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Card1" Content="" HorizontalAlignment="Left" Margin="209,391,0,0" VerticalAlignment="Top" Width="60" Height="107" Click="btn_Card1_Click" Background="{x:Null}" Panel.ZIndex="1"/>
+        <Button x:Name="btn_Chat" Content="" HorizontalAlignment="Left" Margin="534,550,0,0" VerticalAlignment="Top" Width="60" Height="60"  Style="{DynamicResource CircleButton}" Click="btn_Chat_Click" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="ChatBackground.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Striscio" Background="#FF52E065" Content="Striscio" Margin="599,585,81,10" Click="btn_Striscio_Click"/>
+        <Button x:Name="btn_Busso" Background="#FF52E065" Content="Busso" Margin="599,554,81,40" Click="btn_Busso_Click"/>
+        <Button x:Name="btn_Volo" Background="#FF52E065" Content="Volo" Margin="599,523,81,71" Click="btn_Volo_Click"/>
+        <Image x:Name="img_Card1" HorizontalAlignment="Left" Height="107" Margin="339,270,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img_Card3" HorizontalAlignment="Left" Height="107" Margin="339,93,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img_Card2" HorizontalAlignment="Left" Height="107" Margin="404,180,0,0" VerticalAlignment="Top" Width="60" Stretch="Fill" Source="Dorso.png"/>
+        <Image x:Name="img_Card4" HorizontalAlignment="Left" Height="107" Margin="274,180,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img_Card4_Copy1" HorizontalAlignment="Left" Height="108" Margin="-104,180,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="162"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy2" HorizontalAlignment="Left" Height="108" Margin="-106,180,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="146"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy3" HorizontalAlignment="Left" Height="108" Margin="-106,180,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="130"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy" HorizontalAlignment="Left" Height="106" Margin="-104,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="114"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy4" HorizontalAlignment="Left" Height="106" Margin="-104,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="98"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy5" HorizontalAlignment="Left" Height="108" Margin="-106,180,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="82"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy6" HorizontalAlignment="Left" Height="106" Margin="-103,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="66"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy7" HorizontalAlignment="Left" Height="106" Margin="-105,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="50"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy8" HorizontalAlignment="Left" Height="106" Margin="-104,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="34"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy9" HorizontalAlignment="Left" Height="106" Margin="-104,182,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="18"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy20" HorizontalAlignment="Left" Height="108" Margin="303,-100,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="252.588"/>
+                    <TranslateTransform X="42.121" Y="-39.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy21" HorizontalAlignment="Left" Height="108" Margin="301,-100,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="236.588"/>
+                    <TranslateTransform X="44.142" Y="-41.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy22" HorizontalAlignment="Left" Height="108" Margin="301,-100,0,612" VerticalAlignment="Center" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="220.588"/>
+                    <TranslateTransform X="44.141" Y="-41.79"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy23" HorizontalAlignment="Left" Height="106" Margin="303,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="204.588"/>
+                    <TranslateTransform X="42.121" Y="-39.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy24" HorizontalAlignment="Left" Height="106" Margin="303,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="188.588"/>
+                    <TranslateTransform X="42.122" Y="-39.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy25" HorizontalAlignment="Left" Height="108" Margin="301,-100,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="172.588"/>
+                    <TranslateTransform X="44.142" Y="-41.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy26" HorizontalAlignment="Left" Height="106" Margin="304,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="156.588"/>
+                    <TranslateTransform X="41.111" Y="-38.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy27" HorizontalAlignment="Left" Height="106" Margin="302,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="140.588"/>
+                    <TranslateTransform X="43.131" Y="-40.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy28" HorizontalAlignment="Left" Height="106" Margin="303,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="124.588"/>
+                    <TranslateTransform X="42.121" Y="-39.791"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy29" HorizontalAlignment="Left" Height="106" Margin="303,-98,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.018,1.138">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="108.588"/>
+                    <TranslateTransform X="66.397" Y="-86.49"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy10" HorizontalAlignment="Left" Height="108" Margin="707,184,-27,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="341.589"/>
+                    <TranslateTransform X="81.513" Y="1.61"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy11" HorizontalAlignment="Left" Height="108" Margin="705,184,-25,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="325.589"/>
+                    <TranslateTransform X="85.512" Y="1.596"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy12" HorizontalAlignment="Left" Height="108" Margin="705,184,-25,328" VerticalAlignment="Center" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="309.589"/>
+                    <TranslateTransform X="85.512" Y="1.595"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy13" HorizontalAlignment="Left" Height="106" Margin="707,186,-27,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="293.589"/>
+                    <TranslateTransform X="81.513" Y="1.61"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy14" HorizontalAlignment="Left" Height="106" Margin="707,186,-27,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="277.589"/>
+                    <TranslateTransform X="81.512" Y="1.61"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy15" HorizontalAlignment="Left" Height="108" Margin="705,184,-25,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="261.589"/>
+                    <TranslateTransform X="85.513" Y="1.596"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy16" HorizontalAlignment="Left" Height="106" Margin="708,186,-28,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="245.589"/>
+                    <TranslateTransform X="79.511" Y="1.618"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy17" HorizontalAlignment="Left" Height="106" Margin="706,186,-26,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="229.589"/>
+                    <TranslateTransform X="83.511" Y="1.603"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy18" HorizontalAlignment="Left" Height="106" Margin="707,186,-27,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="213.589"/>
+                    <TranslateTransform X="81.512" Y="1.611"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="img_Card4_Copy19" HorizontalAlignment="Left" Height="106" Margin="707,186,-27,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" RenderTransformOrigin="0.5,1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="197.589"/>
+                    <TranslateTransform X="81.511" Y="1.609"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label x:Name="lbl_Messaggio1" Content="" HorizontalAlignment="Left" Margin="154,309,0,0" VerticalAlignment="Top" Height="100" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Padding="4,4,5,15" FontSize="16" FontWeight="Bold">
+            <Label.Background>
+                <ImageBrush ImageSource="Messaggio.png" Stretch="Uniform"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lbl_Messaggio2" Content="" HorizontalAlignment="Left" Margin="675,113,-50,0" VerticalAlignment="Top" Width="120" Height="100" Padding="4,4,5,15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="16">
+            <Label.Background>
+                <ImageBrush ImageSource="Messaggio.png" Stretch="Uniform"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lbl_Messaggio4" Content="" Margin="-50,113,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="4,4,5,18" FontSize="16" FontWeight="Bold" Height="100" HorizontalAlignment="Left" Width="120">
+            <Label.Background>
+                <ImageBrush ImageSource="Messaggio2.png" Stretch="Uniform"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lbl_Messaggio3" Content="" HorizontalAlignment="Left" Margin="422,33,0,0" VerticalAlignment="Top" Width="120" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="10,20,5,5" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.199"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+            <Label.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Messaggio3.png"/>
+            </Label.Background>
+        </Label>
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="107" Margin="209,391,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill" IsEnabled="False"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="107" Margin="274,391,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img3" HorizontalAlignment="Left" Height="107" Margin="339,391,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img4" HorizontalAlignment="Left" Height="107" Margin="404,391,0,0" VerticalAlignment="Top" Width="60" Stretch="Fill" Source="Dorso.png"/>
+        <Image x:Name="img5" HorizontalAlignment="Left" Height="107" Margin="469,391,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img6" HorizontalAlignment="Left" Height="107" Margin="209,503,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img7" HorizontalAlignment="Left" Height="107" Margin="274,503,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img8" HorizontalAlignment="Left" Height="107" Margin="339,503,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img9" HorizontalAlignment="Left" Height="107" Margin="404,503,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Image x:Name="img10" HorizontalAlignment="Left" Height="107" Margin="469,503,0,0" VerticalAlignment="Top" Width="60" Source="Dorso.png" Stretch="Fill"/>
+        <Button x:Name="btn_Punteggio" Content="Punteggio" HorizontalAlignment="Left" Margin="129,590,0,0" VerticalAlignment="Top" Width="75" Background="#FF52E050" Click="btn_Punteggio_Click"/>
+        <Image x:Name="img_Briscola" HorizontalAlignment="Left" Height="60" Margin="339,205,0,0" VerticalAlignment="Top" Width="60"/>
+        <Image x:Name="imk" HorizontalAlignment="Left" Height="100" Margin="599,25,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btn_None" Content="" HorizontalAlignment="Left" Margin="599,492,0,0" VerticalAlignment="Top" Width="60" Background="#FF52E065" RenderTransformOrigin="1.294,0.967" Height="26" Click="btn_None_Click"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="144,451,0,0" VerticalAlignment="Top" Width="60" Height="104" Background="#FF595959"/>
+        <Button x:Name="btn_Rosso" Content="" HorizontalAlignment="Left" Margin="154,459,0,0" VerticalAlignment="Top" Width="40" Height="40" Style="{DynamicResource CircleButton}" Background="Red" BorderBrush="Black" Foreground="{x:Null}" IsEnabled="False"/>
+        <Button x:Name="btn_Verde" Content="" HorizontalAlignment="Left" Margin="154,508,0,0" VerticalAlignment="Top" Width="40" Height="40" Style="{DynamicResource CircleButton}" Background="{x:Null}" IsEnabled="False"/>
+
+    </Grid>
+</Window>
